@@ -1,0 +1,44 @@
+<style>
+body {
+  margin:0;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  margin:0;
+}
+a {
+  color : Black;
+  text-decoration: none;
+}
+a:visited {
+  color : Black;
+  text-decoration: none;
+}
+a:hover {
+  color : Black;
+  text-decoration: underline;
+}
+ul {
+  font-size: 25px;
+  border-right:1px solid black;
+  width: 200px;
+  padding: 10px;
+  margin:0;
+  list-style: none;
+}
+#contents {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows:900px;
+}
+#contents ul{
+  padding-left: 35px;
+}
+#grid {
+  padding-left:120px;
+  padding-right:35px;
+}
+</style>
